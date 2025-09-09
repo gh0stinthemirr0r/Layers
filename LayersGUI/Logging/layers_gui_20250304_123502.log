@@ -1,0 +1,30 @@
+{"level":"info","timestamp":"2025-03-04T12:35:03.048-0800","caller":"LayersGUI/app.go:94","msg":"Created directory","dir":"Logging"}
+{"level":"info","timestamp":"2025-03-04T12:35:03.049-0800","caller":"LayersGUI/app.go:94","msg":"Created directory","dir":"Reporting"}
+{"level":"info","timestamp":"2025-03-04T12:35:06.929-0800","caller":"LayersGUI/app.go:101","msg":"Starting layer tests execution","layers":[1],"timestamp":"2025-03-04T12:35:06-08:00"}
+{"level":"info","timestamp":"2025-03-04T12:35:30.582-0800","caller":"LayersGUI/app.go:148","msg":"Layer tests completed successfully","total_results":2,"timestamp":"2025-03-04T12:35:30-08:00"}
+{"level":"info","timestamp":"2025-03-04T12:35:30.583-0800","caller":"LayersGUI/app.go:156","msg":"Generating PDF report","path":"Reporting\\layer_tests_20250304_123530.pdf"}
+{"level":"info","timestamp":"2025-03-04T12:35:30.586-0800","caller":"LayersGUI/app.go:168","msg":"Generated PDF report successfully","path":"Reporting\\layer_tests_20250304_123530.pdf","timestamp":"2025-03-04T12:35:30-08:00"}
+{"level":"info","timestamp":"2025-03-04T12:35:30.589-0800","caller":"LayersGUI/app.go:101","msg":"Starting layer tests execution","layers":[2],"timestamp":"2025-03-04T12:35:30-08:00"}
+{"level":"info","timestamp":"2025-03-04T12:35:59.805-0800","caller":"LayersGUI/app.go:148","msg":"Layer tests completed successfully","total_results":2,"timestamp":"2025-03-04T12:35:59-08:00"}
+{"level":"info","timestamp":"2025-03-04T12:35:59.805-0800","caller":"LayersGUI/app.go:156","msg":"Generating PDF report","path":"Reporting\\layer_tests_20250304_123559.pdf"}
+{"level":"info","timestamp":"2025-03-04T12:35:59.806-0800","caller":"LayersGUI/app.go:168","msg":"Generated PDF report successfully","path":"Reporting\\layer_tests_20250304_123559.pdf","timestamp":"2025-03-04T12:35:59-08:00"}
+{"level":"info","timestamp":"2025-03-04T12:35:59.808-0800","caller":"LayersGUI/app.go:101","msg":"Starting layer tests execution","layers":[3],"timestamp":"2025-03-04T12:35:59-08:00"}
+{"level":"info","timestamp":"2025-03-04T12:36:02.895-0800","caller":"LayersGUI/app.go:148","msg":"Layer tests completed successfully","total_results":2,"timestamp":"2025-03-04T12:36:02-08:00"}
+{"level":"info","timestamp":"2025-03-04T12:36:02.896-0800","caller":"LayersGUI/app.go:156","msg":"Generating PDF report","path":"Reporting\\layer_tests_20250304_123602.pdf"}
+{"level":"info","timestamp":"2025-03-04T12:36:02.897-0800","caller":"LayersGUI/app.go:168","msg":"Generated PDF report successfully","path":"Reporting\\layer_tests_20250304_123602.pdf","timestamp":"2025-03-04T12:36:02-08:00"}
+{"level":"info","timestamp":"2025-03-04T12:36:02.898-0800","caller":"LayersGUI/app.go:101","msg":"Starting layer tests execution","layers":[4],"timestamp":"2025-03-04T12:36:02-08:00"}
+{"level":"info","timestamp":"2025-03-04T12:36:02.957-0800","caller":"LayersGUI/app.go:148","msg":"Layer tests completed successfully","total_results":2,"timestamp":"2025-03-04T12:36:02-08:00"}
+{"level":"info","timestamp":"2025-03-04T12:36:02.958-0800","caller":"LayersGUI/app.go:156","msg":"Generating PDF report","path":"Reporting\\layer_tests_20250304_123602.pdf"}
+{"level":"info","timestamp":"2025-03-04T12:36:02.960-0800","caller":"LayersGUI/app.go:168","msg":"Generated PDF report successfully","path":"Reporting\\layer_tests_20250304_123602.pdf","timestamp":"2025-03-04T12:36:02-08:00"}
+{"level":"info","timestamp":"2025-03-04T12:36:02.963-0800","caller":"LayersGUI/app.go:101","msg":"Starting layer tests execution","layers":[5],"timestamp":"2025-03-04T12:36:02-08:00"}
+{"level":"info","timestamp":"2025-03-04T12:36:03.023-0800","caller":"LayersGUI/app.go:148","msg":"Layer tests completed successfully","total_results":2,"timestamp":"2025-03-04T12:36:03-08:00"}
+{"level":"info","timestamp":"2025-03-04T12:36:03.024-0800","caller":"LayersGUI/app.go:156","msg":"Generating PDF report","path":"Reporting\\layer_tests_20250304_123603.pdf"}
+{"level":"info","timestamp":"2025-03-04T12:36:03.025-0800","caller":"LayersGUI/app.go:168","msg":"Generated PDF report successfully","path":"Reporting\\layer_tests_20250304_123603.pdf","timestamp":"2025-03-04T12:36:03-08:00"}
+{"level":"info","timestamp":"2025-03-04T12:36:03.027-0800","caller":"LayersGUI/app.go:101","msg":"Starting layer tests execution","layers":[6],"timestamp":"2025-03-04T12:36:03-08:00"}
+{"level":"info","timestamp":"2025-03-04T12:36:03.061-0800","caller":"LayersGUI/app.go:148","msg":"Layer tests completed successfully","total_results":2,"timestamp":"2025-03-04T12:36:03-08:00"}
+{"level":"info","timestamp":"2025-03-04T12:36:03.062-0800","caller":"LayersGUI/app.go:156","msg":"Generating PDF report","path":"Reporting\\layer_tests_20250304_123603.pdf"}
+{"level":"info","timestamp":"2025-03-04T12:36:03.063-0800","caller":"LayersGUI/app.go:168","msg":"Generated PDF report successfully","path":"Reporting\\layer_tests_20250304_123603.pdf","timestamp":"2025-03-04T12:36:03-08:00"}
+{"level":"info","timestamp":"2025-03-04T12:36:03.065-0800","caller":"LayersGUI/app.go:101","msg":"Starting layer tests execution","layers":[7],"timestamp":"2025-03-04T12:36:03-08:00"}
+{"level":"info","timestamp":"2025-03-04T12:36:03.677-0800","caller":"LayersGUI/app.go:148","msg":"Layer tests completed successfully","total_results":2,"timestamp":"2025-03-04T12:36:03-08:00"}
+{"level":"info","timestamp":"2025-03-04T12:36:03.677-0800","caller":"LayersGUI/app.go:156","msg":"Generating PDF report","path":"Reporting\\layer_tests_20250304_123603.pdf"}
+{"level":"info","timestamp":"2025-03-04T12:36:03.684-0800","caller":"LayersGUI/app.go:168","msg":"Generated PDF report successfully","path":"Reporting\\layer_tests_20250304_123603.pdf","timestamp":"2025-03-04T12:36:03-08:00"}

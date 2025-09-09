@@ -1,0 +1,8 @@
+{"level":"info","ts":"2025-03-04T12:36:03.030-0800","caller":"Layers/layers.go:140","msg":"Starting selected layer tests","layers":[6],"run_id":"20250304_123603"}
+{"level":"info","ts":"2025-03-04T12:36:03.030-0800","caller":"layer6/layer6.go:33","msg":"Starting Layer 6 (Presentation Layer) tests..."}
+{"level":"info","ts":"2025-03-04T12:36:03.030-0800","caller":"layer6/layer6.go:113","msg":"All Layer 6 tests passed successfully:\n- Datasets tested: 2\n- Total transformations: 4"}
+{"level":"info","ts":"2025-03-04T12:36:03.036-0800","caller":"Layers/layers.go:418","msg":"Generated report","format":"pdf","path":"Reporting\\layer_tests_20250304_123603.pdf"}
+{"level":"info","ts":"2025-03-04T12:36:03.066-0800","caller":"Layers/layers.go:140","msg":"Starting selected layer tests","layers":[7],"run_id":"20250304_123603"}
+{"level":"info","ts":"2025-03-04T12:36:03.066-0800","caller":"layer7/layer7.go:163","msg":"Starting Layer 7 (Application Layer) tests...","endpoints":["https://www.google.com","https://www.cloudflare.com"],"timeout":15,"methods":["GET"],"follow_redirects":true,"verify_ssl":true,"validate_content":false}
+{"level":"info","ts":"2025-03-04T12:36:03.652-0800","caller":"layer7/layer7.go:327","msg":"Layer 7 tests completed","status":"Passed","sub_tests":2,"failures":0,"warnings":0}
+{"level":"info","ts":"2025-03-04T12:36:03.654-0800","caller":"Layers/layers.go:418","msg":"Generated report","format":"pdf","path":"Reporting\\layer_tests_20250304_123603.pdf"}

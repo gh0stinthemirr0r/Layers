@@ -1,0 +1,4 @@
+Layer,Test Name,Status,Message,Start Time,End Time,Duration (ms),Transfer Rate (MB/s),Latency (ms),Packet Loss (%),Response Time (ms)
+4,,Failed,"Layer 4 tests failed:
+TCP test failed for 8.8.8.8:53
+TCP test failed for 1.1.1.1:53",0001-01-01T00:00:00Z,0001-01-01T00:00:00Z,%!f(int64=00),0.00,%!f(int64=00),0.00,%!f(int64=00)

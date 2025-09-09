@@ -1,0 +1,21 @@
+{
+  "$schema": "https://wails.io/schemas/config.v2.json",
+  "name": "Layers",
+  "outputfilename": "Layers",
+  "frontend:install": "npm install",
+  "frontend:build": "npm run build",
+  "frontend:dev:watcher": "npm run dev",
+  "frontend:dev:serverUrl": "auto",
+  "author": {
+    "name": "Aaron Stovall",
+    "email": "iamtheghostinthemirror@pm.me"
+  },
+  "info": {
+    "companyName": "Aaron Stovall",
+    "productName": "Layers",
+    "productVersion": "1.0.0",
+    "copyright": "© Aaron Stovall",
+    "comments": "Network Layer Testing Suite",
+    "icon": ["appicon.ico"]
+  }
+}

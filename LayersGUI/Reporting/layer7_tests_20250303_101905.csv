@@ -1,0 +1,4 @@
+Layer,Status,Message
+7,Passed,"Layer 7 tests passed:
+Successfully tested endpoint https://www.google.com (Status: 200, Content-Type: text/html; charset=ISO-8859-1)
+Successfully tested endpoint https://www.cloudflare.com (Status: 200, Content-Type: text/html; charset=utf-8)"

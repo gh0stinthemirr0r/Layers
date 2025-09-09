@@ -1,0 +1,6 @@
+{"level":"info","timestamp":"2025-03-03T10:18:57.271-0800","caller":"LayersGUI/app.go:66","msg":"Created directory","dir":"Logging"}
+{"level":"info","timestamp":"2025-03-03T10:18:57.271-0800","caller":"LayersGUI/app.go:66","msg":"Created directory","dir":"Reporting"}
+{"level":"info","timestamp":"2025-03-03T10:19:01.883-0800","caller":"LayersGUI/app.go:73","msg":"Starting layer tests execution","layers":[1,2,3,4,5,6,7],"timestamp":"2025-03-03T10:19:01-08:00"}
+{"level":"info","timestamp":"2025-03-03T10:19:05.795-0800","caller":"LayersGUI/app.go:94","msg":"Layer tests completed successfully","total_results":7,"timestamp":"2025-03-03T10:19:05-08:00"}
+{"level":"info","timestamp":"2025-03-03T10:19:05.795-0800","caller":"LayersGUI/app.go:102","msg":"Generating PDF report","path":"Reporting\\layer_tests_20250303_101905.pdf"}
+{"level":"info","timestamp":"2025-03-03T10:19:05.807-0800","caller":"LayersGUI/app.go:114","msg":"Generated PDF report successfully","path":"Reporting\\layer_tests_20250303_101905.pdf","timestamp":"2025-03-03T10:19:05-08:00"}

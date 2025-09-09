@@ -1,0 +1,8 @@
+Layer,Status,Message
+6,Passed,"Layer 6 tests passed:
+Successful transformations:
+JSON transformation successful
+Base64 transformation successful
+Successful transformations:
+JSON transformation successful
+Base64 transformation successful"

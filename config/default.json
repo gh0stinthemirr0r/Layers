@@ -1,0 +1,81 @@
+{
+    "output_format": "csv",
+    "output_path": "",
+    "log_level": "info",
+    "global_timeout": "30s",
+
+    "layer1": {
+        "enabled": true,
+        "timeout": "5s",
+        "targets": ["eth0", "wlan0"],
+        "options": {
+            "attempt_count": "3",
+            "min_signal_strength": "50"
+        }
+    },
+    "layer2": {
+        "enabled": true,
+        "timeout": "5s",
+        "targets": ["eth0", "wlan0"],
+        "options": {
+            "check_mac": "true",
+            "check_mtu": "true"
+        }
+    },
+    "layer3": {
+        "enabled": true,
+        "timeout": "10s",
+        "targets": ["8.8.8.8", "1.1.1.1"],
+        "options": {
+            "hostname": "example.com",
+            "ping_addr": "8.8.8.8",
+            "ping_count": "4"
+        }
+    },
+    "layer4": {
+        "enabled": true,
+        "timeout": "10s",
+        "targets": [
+            "tcp://example.com:80",
+            "tcp://example.com:443"
+        ],
+        "options": {
+            "udp_addr": "udp://example.com:53"
+        }
+    },
+    "layer5": {
+        "enabled": true,
+        "timeout": "15s",
+        "targets": [
+            "example.com:22",
+            "example.com:443"
+        ],
+        "options": {
+            "check_session_reuse": "true",
+            "check_keepalive": "true"
+        }
+    },
+    "layer6": {
+        "enabled": true,
+        "timeout": "10s",
+        "targets": [],
+        "options": {
+            "compression": "true",
+            "encryption": "true",
+            "encoding": "utf-8"
+        }
+    },
+    "layer7": {
+        "enabled": true,
+        "timeout": "15s",
+        "targets": [
+            "https://api.example.com/health",
+            "https://api.example.com/status"
+        ],
+        "options": {
+            "http_method": "GET",
+            "verify_ssl": "true",
+            "follow_redirects": "true"
+        }
+    }
+} 

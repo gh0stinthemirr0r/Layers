@@ -1,0 +1,4 @@
+Layer,Test Name,Status,Message,Start Time,End Time,Duration (ms),Transfer Rate (MB/s),Latency (ms),Packet Loss (%),Response Time (ms)
+4,Transport Layer Tests,Passed,"All Layer 4 tests passed successfully:
+- TCP connections tested: 2
+- UDP connection tested: 8.8.8.8:53",2025-03-04T12:32:57-08:00,2025-03-04T12:32:57-08:00,%!f(int64=24),0.00,%!f(int64=00),0.00,%!f(int64=00)

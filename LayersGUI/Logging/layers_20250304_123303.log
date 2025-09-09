@@ -1,0 +1,4 @@
+{"level":"info","ts":"2025-03-04T12:33:03.836-0800","caller":"Layers/layers.go:140","msg":"Starting selected layer tests","layers":[5],"run_id":"20250304_123303"}
+{"level":"info","ts":"2025-03-04T12:33:03.836-0800","caller":"layer5/layer5.go:33","msg":"Starting Layer 5 (Session Layer) tests...","targets":["8.8.8.8:53","1.1.1.1:53"],"timeout":15}
+{"level":"info","ts":"2025-03-04T12:33:03.862-0800","caller":"layer5/layer5.go:93","msg":"All Layer 5 tests passed successfully:\n- Session establishments tested: 2\n- Tested targets: 8.8.8.8:53, 1.1.1.1:53"}
+{"level":"info","ts":"2025-03-04T12:33:03.865-0800","caller":"Layers/layers.go:418","msg":"Generated report","format":"pdf","path":"Reporting\\layer_tests_20250304_123303.pdf"}

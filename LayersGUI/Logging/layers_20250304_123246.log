@@ -1,0 +1,4 @@
+{"level":"info","ts":"2025-03-04T12:32:46.728-0800","caller":"Layers/layers.go:140","msg":"Starting selected layer tests","layers":[3],"run_id":"20250304_123246"}
+{"level":"info","ts":"2025-03-04T12:32:46.728-0800","caller":"layer3/layer3.go:36","msg":"Starting Layer 3 (Network Layer) tests...","hostname":"localhost","ping_addr":"8.8.8.8","ping_count":4}
+{"level":"info","ts":"2025-03-04T12:32:49.793-0800","caller":"layer3/layer3.go:114","msg":"All Layer 3 tests passed successfully:\n- Ping test to 8.8.8.8 completed successfully\n- DNS resolution for localhost successful"}
+{"level":"info","ts":"2025-03-04T12:32:49.794-0800","caller":"Layers/layers.go:418","msg":"Generated report","format":"pdf","path":"Reporting\\layer_tests_20250304_123246.pdf"}

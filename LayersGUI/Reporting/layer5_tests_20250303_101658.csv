@@ -1,0 +1,4 @@
+Layer,Status,Message
+5,Failed,"Layer 5 tests failed:
+Session test failed for localhost:22
+Session test failed for localhost:3389"

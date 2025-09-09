@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>OSI Layer Test Results</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background: #161719;
+            color: #d8d9da;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .panel {
+            background: #212124;
+            border-radius: 3px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .metrics {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-bottom: 20px;
+        }
+        .metric-card {
+            background: #2a2a2d;
+            padding: 15px;
+            border-radius: 3px;
+        }
+        .metric-title {
+            font-size: 14px;
+            color: #8e8e8e;
+            margin-bottom: 10px;
+        }
+        .metric-value {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .layer-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .layer-card {
+            background: #2a2a2d;
+            padding: 15px;
+            border-radius: 3px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .status {
+            padding: 4px 8px;
+            border-radius: 3px;
+            font-size: 12px;
+            font-weight: bold;
+        }
+        .status-passed {
+            background: #299c46;
+            color: white;
+        }
+        .status-failed {
+            background: #e02f44;
+            color: white;
+        }
+        .refresh-time {
+            font-size: 12px;
+            color: #8e8e8e;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>OSI Layer Test Results</h1>
+            <div class="refresh-time">Last updated: {{.Time.Format "2006-01-02 15:04:05"}}</div>
+        </div>
+
+        <div class="panel">
+            <div class="metrics">
+                <div class="metric-card">
+                    <div class="metric-title">Total Tests</div>
+                    <div class="metric-value">{{len .Results}}</div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-title">Passed Tests</div>
+                    <div class="metric-value" id="passed-count">0</div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-title">Failed Tests</div>
+                    <div class="metric-value" id="failed-count">0</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="panel">
+            <h2>Layer Status</h2>
+            <div class="layer-grid">
+                {{range .Results}}
+                <div class="layer-card">
+                    <div>
+                        <h3>Layer {{.Layer}}</h3>
+                        <div>{{.Description}}</div>
+                    </div>
+                    <div class="status {{if eq .Status "Passed"}}status-passed{{else}}status-failed{{end}}">
+                        {{.Status}}
+                    </div>
+                </div>
+                {{end}}
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Update metrics
+        function updateMetrics() {
+            let passed = 0;
+            let failed = 0;
+            {{range .Results}}
+                {{if eq .Status "Passed"}}
+                    passed++;
+                {{else}}
+                    failed++;
+                {{end}}
+            {{end}}
+            document.getElementById('passed-count').textContent = passed;
+            document.getElementById('failed-count').textContent = failed;
+        }
+
+        // Initialize
+        updateMetrics();
+
+        // Auto-refresh every 5 seconds
+        setInterval(() => {
+            fetch('/api/results')
+                .then(response => response.json())
+                .then(data => {
+                    // Update the UI with new data
+                    location.reload();
+                })
+                .catch(error => console.error('Error fetching results:', error));
+        }, 5000);
+    </script>
+</body>
+</html> 

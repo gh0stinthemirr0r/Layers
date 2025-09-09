@@ -1,0 +1,5 @@
+Layer,Status,Message
+4,Passed,"Layer 4 tests passed:
+TCP connection to 8.8.8.8:53 successful
+TCP connection to 1.1.1.1:53 successful
+UDP connection to 8.8.8.8:53 successful"

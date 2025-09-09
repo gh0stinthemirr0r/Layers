@@ -1,0 +1,4 @@
+{"level":"info","ts":"2025-03-04T12:35:30.591-0800","caller":"Layers/layers.go:140","msg":"Starting selected layer tests","layers":[2],"run_id":"20250304_123530"}
+{"level":"info","ts":"2025-03-04T12:35:30.592-0800","caller":"layer2/layer2.go:61","msg":"Starting Layer 2 (Data Link Layer) tests..."}
+{"level":"info","ts":"2025-03-04T12:35:59.777-0800","caller":"layer2/layer2.go:253","msg":"Layer 2 tests completed","status":"Warning","total_interfaces":10,"passed":8,"failed":0,"warnings":2}
+{"level":"info","ts":"2025-03-04T12:35:59.778-0800","caller":"Layers/layers.go:418","msg":"Generated report","format":"pdf","path":"Reporting\\layer_tests_20250304_123530.pdf"}

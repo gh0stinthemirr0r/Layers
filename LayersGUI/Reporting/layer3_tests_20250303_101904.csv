@@ -1,0 +1,7 @@
+Layer,Status,Message
+3,Passed,"Layer 3 tests passed:
+- Ping test successful: Reply from 8.8.8.8: bytes=32 time=57ms TTL=117
+Reply from 8.8.8.8: bytes=32 time=53ms TTL=117
+Reply from 8.8.8.8: bytes=32 time=56ms TTL=117
+Ping statistics for 8.8.8.8:
+- DNS resolution successful for localhost: [::1 127.0.0.1]"

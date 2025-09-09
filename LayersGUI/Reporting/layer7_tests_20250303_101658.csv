@@ -1,0 +1,4 @@
+Layer,Status,Message
+7,Failed,"Layer 7 tests failed:
+Endpoint test failed for http://localhost
+Endpoint test failed for https://localhost"

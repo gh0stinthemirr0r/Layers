@@ -1,0 +1,4 @@
+{"level":"info","ts":"2025-03-04T12:32:57.878-0800","caller":"Layers/layers.go:140","msg":"Starting selected layer tests","layers":[4],"run_id":"20250304_123257"}
+{"level":"info","ts":"2025-03-04T12:32:57.878-0800","caller":"layer4/layer4.go:36","msg":"Starting Layer 4 (Transport Layer) tests...","tcp_addresses":["8.8.8.8:53","1.1.1.1:53"],"udp_address":"8.8.8.8:53"}
+{"level":"info","ts":"2025-03-04T12:32:57.902-0800","caller":"layer4/layer4.go:115","msg":"All Layer 4 tests passed successfully:\n- TCP connections tested: 2\n- UDP connection tested: 8.8.8.8:53"}
+{"level":"info","ts":"2025-03-04T12:32:57.906-0800","caller":"Layers/layers.go:418","msg":"Generated report","format":"pdf","path":"Reporting\\layer_tests_20250304_123257.pdf"}

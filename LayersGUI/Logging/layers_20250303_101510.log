@@ -1,0 +1,11 @@
+{"level":"warn","ts":"2025-03-03T10:15:10.268-0800","caller":"Layers/layers.go:116","msg":"Layer not implemented","layer":3}
+{"level":"warn","ts":"2025-03-03T10:15:10.268-0800","caller":"Layers/layers.go:116","msg":"Layer not implemented","layer":4}
+{"level":"warn","ts":"2025-03-03T10:15:10.268-0800","caller":"Layers/layers.go:116","msg":"Layer not implemented","layer":5}
+{"level":"warn","ts":"2025-03-03T10:15:10.268-0800","caller":"Layers/layers.go:116","msg":"Layer not implemented","layer":6}
+{"level":"warn","ts":"2025-03-03T10:15:10.268-0800","caller":"Layers/layers.go:116","msg":"Layer not implemented","layer":7}
+{"level":"info","ts":"2025-03-03T10:15:10.268-0800","caller":"Layers/layers.go:126","msg":"Starting layer tests","layers":[1,2,3,4,5,6,7]}
+{"level":"info","ts":"2025-03-03T10:15:10.269-0800","caller":"layer1/layer1.go:34","msg":"Starting Layer 1 (Physical Layer) tests..."}
+{"level":"info","ts":"2025-03-03T10:15:10.290-0800","caller":"layer1/layer1.go:88","msg":"Layer 1 tests passed. Attempts=3/3 successful, signal=85%"}
+{"level":"info","ts":"2025-03-03T10:15:10.291-0800","caller":"layer2/layer2.go:31","msg":"Starting Layer 2 (Data Link Layer) tests..."}
+{"level":"info","ts":"2025-03-03T10:15:10.305-0800","caller":"layer2/layer2.go:87","msg":"Layer 2 tests passed. Found 5 active interfaces:\nInterface ProtonVPN: MAC=, Addresses=10.2.0.2/32\nInterface Wi-Fi: MAC=a0:02:a5:6b:a8:0a, Addresses=10.10.1.104/24\nInterface VMware Network Adapter VMnet1: MAC=00:50:56:c0:00:01, Addresses=192.168.26.1/24\nInterface VMware Network Adapter VMnet8: MAC=00:50:56:c0:00:08, Addresses=192.168.198.1/24\nInterface Loopback Pseudo-Interface 1: MAC=, Addresses=::1/128, 127.0.0.1/8"}
+{"level":"info","ts":"2025-03-03T10:15:10.308-0800","caller":"Layers/layers.go:132","msg":"Layer tests completed successfully"}

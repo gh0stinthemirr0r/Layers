@@ -1,0 +1,7 @@
+Layer,Status,Message
+2,Passed,"Layer 2 tests passed. Found 5 active interfaces:
+Interface ProtonVPN: MAC=, Addresses=10.2.0.2/32
+Interface Wi-Fi: MAC=a0:02:a5:6b:a8:0a, Addresses=10.10.1.104/24
+Interface VMware Network Adapter VMnet1: MAC=00:50:56:c0:00:01, Addresses=192.168.26.1/24
+Interface VMware Network Adapter VMnet8: MAC=00:50:56:c0:00:08, Addresses=192.168.198.1/24
+Interface Loopback Pseudo-Interface 1: MAC=, Addresses=::1/128, 127.0.0.1/8"

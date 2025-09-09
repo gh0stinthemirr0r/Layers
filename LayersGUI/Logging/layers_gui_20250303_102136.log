@@ -1,0 +1,2 @@
+{"level":"info","timestamp":"2025-03-03T10:21:37.018-0800","caller":"LayersGUI/app.go:66","msg":"Created directory","dir":"Logging"}
+{"level":"info","timestamp":"2025-03-03T10:21:37.018-0800","caller":"LayersGUI/app.go:66","msg":"Created directory","dir":"Reporting"}
